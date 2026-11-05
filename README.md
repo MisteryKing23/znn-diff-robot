@@ -31,13 +31,13 @@ znn-diff-robot/
 │   ├── laptop_ubuntu.py           # Nodo ZNN y cálculo dinámico (Laptop)
 │   ├── raspberry_pi.py            # Nodo puente y Watchdog (Raspberry Pi)
 │   ├── OpenCR.ino                 # Firmware principal del microcontrolador
-│   └── README.md                  # Documentación de la capa de control
+│   └── README_arquitectura.md     # Documentación de la capa de control
 │
 └── /identificacion_friccion       <-- Módulo de calibración experimental
     ├── openCR_friccion.ino        # Firmware temporal para pruebas a 500 Hz
     ├── main_identificacion.py     # Script orquestador de perfiles de velocidad
     ├── ajuste_friccion.py         # Motor matemático (Mínimos Cuadrados)
-    └── README.md                  # Documentación de la calibración
+    └── README_friccion.md         # Documentación de la calibración
 ```
 
 ---
